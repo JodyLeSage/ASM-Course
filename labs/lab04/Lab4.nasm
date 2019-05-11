@@ -22,7 +22,7 @@ first_func:
     pop rbp
     ret
 
-second_func
+second_func:
     push rbp
     mov rbp, rsp
     mov rcx, value
