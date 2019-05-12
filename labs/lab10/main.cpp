@@ -51,8 +51,8 @@ int main(int argc, char** argv)
     char idbuf[13] = {0};
 
     printf("Preparing to run first_func (Get timestamp)\n");
-    first = gettsc();
-    second = first_func();
+    first = first_func();
+    second = gettsc();
     CLOSE(second, first);    
     
     getvstr(&tmp);
