@@ -51,7 +51,8 @@ third_func:
 ;  number (where N is the value
 ;  passed to your method as the
 ;  only parameter).
-;
+;  Should return 0 for N=0 and
+;  1 for N=1
 ;  BEGIN student code
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
