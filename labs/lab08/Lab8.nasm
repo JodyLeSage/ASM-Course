@@ -37,7 +37,7 @@ second_func:
 ;  the destination. Copy the values
 ;  from source to destination.
 ;  The size of both buffers is
-;  stored in RCX.
+;  stored in RDX.
 ; 
 ;  BEGIN student code
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -30,7 +30,7 @@ int main(int argc, char** argv)
         char fbuf[BUFF_SIZE+1] = {0};
         char sbuf[BUFF_SIZE+1] = {0};
     
-        memset(buf, 0x41, BUFF_SIZE);
+        memset(fbuf, 0x41, BUFF_SIZE);
         printf("Preparing to run second function (Copy memory)\n");
         second_func(sbuf, fbuf, BUFF_SIZE);
         EQ((size_t)0, memcmp(fbuf, sbuf, BUFF_SIZE));
