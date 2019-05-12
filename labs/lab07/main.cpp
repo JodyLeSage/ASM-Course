@@ -30,7 +30,7 @@ int main(int argc, char** argv)
     EQ((size_t)150, second_func(values, 5));
 
     printf("Preparing to run third function (String length)\n");
-    EQ(strlen(buf), third_func(buf));
+    EQ(third_func(buf), strlen(buf));
 
     return 0;
 }
