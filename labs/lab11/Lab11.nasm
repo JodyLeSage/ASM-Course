@@ -43,7 +43,7 @@ second_func:
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;   This problem will require
 ;  you to add the contents of
-;  _firstfloat to an integer
+;  firstfloat to an integer
 ;  that is passed in as the
 ;  first (and only) argument
 ;  to your function. Store the
