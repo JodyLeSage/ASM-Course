@@ -2,8 +2,8 @@ bits 64
 
 global first_func, second_func, third_func
 
-_firstdata dd 0x00
-_seconddata dd 0x00
+firstdata dd 0x00
+seconddata dd 0x00
 
 first_func:
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
